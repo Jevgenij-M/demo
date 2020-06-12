@@ -7,7 +7,7 @@ Assumptions made:
         (no knowledge of next packet is needed for current packet transformation)
 
 File reading loop is run in transformer.cpp
-
+    
     * First it tries to get input format and accumulates read data
     * Whet format aquired accumulated data passed into data integrator
         to check (in pottential implementation) for logical consistency
@@ -15,8 +15,8 @@ File reading loop is run in transformer.cpp
     * And then written to file.
 
 
-to build run 'make transformer'
+to build run `make transformer`
 
-to run csv to tsv conversion './transformer ./input_csv_3 ./out.tsv' 
+to run csv to tsv conversion `./transformer ./input_csv_3 ./out.tsv`
 
-to run conversion back       './transformer ./out.tsv ./out.csv'
+to run conversion back       `./transformer ./out.tsv ./out.csv`
